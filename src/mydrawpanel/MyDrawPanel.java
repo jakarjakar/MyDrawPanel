@@ -5,6 +5,8 @@ import javax.swing.*;
 
 
 public class MyDrawPanel extends JPanel {
+    JPanel newPanel = new JPanel();
+    
     @Override
     public void paintComponent(Graphics g) {
         g.setColor(Color.ORANGE);
@@ -12,7 +14,6 @@ public class MyDrawPanel extends JPanel {
     }
     
     public static void main(String[] args) {
-        MyDrawPanel d = new MyDrawPanel();
-        d.paintComponent(g);
+        
     }
 }
